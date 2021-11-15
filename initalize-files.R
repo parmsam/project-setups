@@ -40,6 +40,10 @@ twee <- function(path = getwd(), level = Inf) {
 }
 
 # save log file with file tree ----
-sink(file("file-tree.txt"), type = "output")
-res_fs_tree <- twee()
-sink()
+save_tree <- function(path = "file-tree.txt") {
+  sink(file(path), type = "output")
+  res_fs_tree <- twee()
+  sink()  
+}
+
+save_tree()
