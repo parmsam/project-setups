@@ -1,0 +1,8 @@
+-- file-tree.txt
+-- graphics
+-- initalize-files.R
+-- input
+-- output
+-- project-directory-setup.Rproj
+-- README.Rmd
+-- set-up.R
