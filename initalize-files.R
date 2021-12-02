@@ -1,15 +1,16 @@
 #initialize files and folders based on Efficient R Programming Book ----
 # https://csgillespie.github.io/efficientR/set-up.html#project-management
 # project/
-#   - README.Rmd # Project description
+# - README.Rmd # Project description
 # - set-up.R  # Required packages
 # - R/ # For R code
-#   - input # Data files
-# - graphics/
-#   - output/ # Results
+# - input/ # Data files
+# - graphics/ #Exported graphics
+# - output/ # Results
 dir.create("input")
 dir.create("graphics")
 dir.create("output")
+dir.create("R")
 file.create("README.md")
 file.create("set-up.R")
 
